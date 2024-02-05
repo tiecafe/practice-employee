@@ -4,9 +4,9 @@
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper
-	namespace="org.mybatis.spring.sample.mapper.EmployeeMapper">
+	namespace="risotech.practice.employee.dao.EmployeeMapper">
 
-	<select id="getEmployees"
+	<select id="findAll"
 		resultType="risotech.practice.employee.entity.Employee">
 		select * from employee
 	</select>
